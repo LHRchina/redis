@@ -53,7 +53,11 @@ CMakeFiles/redis-server.dir/src/ae.c.o
  /Users/haoran.li/Documents/GitHub/redis/src/monotonic.h
  /Users/haoran.li/Documents/GitHub/redis/src/zmalloc.h
 CMakeFiles/redis-server.dir/src/ae_kqueue.c.o
+ /Users/haoran.li/Documents/GitHub/redis/src/ae.h
  /Users/haoran.li/Documents/GitHub/redis/src/ae_kqueue.c
+ /Users/haoran.li/Documents/GitHub/redis/src/fmacros.h
+ /Users/haoran.li/Documents/GitHub/redis/src/monotonic.h
+ /Users/haoran.li/Documents/GitHub/redis/src/zmalloc.h
 CMakeFiles/redis-server.dir/src/anet.c.o
  /Users/haoran.li/Documents/GitHub/redis/src/anet.c
  /Users/haoran.li/Documents/GitHub/redis/src/anet.h

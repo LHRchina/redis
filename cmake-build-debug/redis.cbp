@@ -48,8 +48,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="redis-server">
-				<Option output="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/redis-server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug"/>
+				<Option output="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/src/redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="src"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -72,8 +72,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="redis-server/fast">
-				<Option output="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/redis-server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug"/>
+				<Option output="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/src/redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="src"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -96,8 +96,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="redis-cli">
-				<Option output="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/redis-cli" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug"/>
+				<Option output="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/src/redis-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="src"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -120,8 +120,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="redis-cli/fast">
-				<Option output="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/redis-cli" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug"/>
+				<Option output="/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/src/redis-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="src"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -819,6 +819,7 @@
 		</Unit>
 		<Unit filename="/Users/haoran.li/Documents/GitHub/redis/src/crc16.c">
 			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
 		</Unit>
 		<Unit filename="/Users/haoran.li/Documents/GitHub/redis/src/crc64.c">
 			<Option target="redis-server"/>
@@ -845,9 +846,11 @@
 		</Unit>
 		<Unit filename="/Users/haoran.li/Documents/GitHub/redis/src/dict.c">
 			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
 		</Unit>
 		<Unit filename="/Users/haoran.li/Documents/GitHub/redis/src/dict.h">
 			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
 		</Unit>
 		<Unit filename="/Users/haoran.li/Documents/GitHub/redis/src/endianconv.c">
 			<Option target="redis-server"/>
@@ -1053,6 +1056,7 @@
 		</Unit>
 		<Unit filename="/Users/haoran.li/Documents/GitHub/redis/src/siphash.c">
 			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
 		</Unit>
 		<Unit filename="/Users/haoran.li/Documents/GitHub/redis/src/slowlog.c">
 			<Option target="redis-server"/>

@@ -181,6 +181,45 @@ CMakeFiles/redis-cli.dir/src/crc64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/crc64.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/haoran.li/Documents/GitHub/redis/src/crc64.c -o CMakeFiles/redis-cli.dir/src/crc64.c.s
 
+CMakeFiles/redis-cli.dir/src/crc16.c.o: CMakeFiles/redis-cli.dir/flags.make
+CMakeFiles/redis-cli.dir/src/crc16.c.o: ../src/crc16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/redis-cli.dir/src/crc16.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/crc16.c.o   -c /Users/haoran.li/Documents/GitHub/redis/src/crc16.c
+
+CMakeFiles/redis-cli.dir/src/crc16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/crc16.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/haoran.li/Documents/GitHub/redis/src/crc16.c > CMakeFiles/redis-cli.dir/src/crc16.c.i
+
+CMakeFiles/redis-cli.dir/src/crc16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/crc16.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/haoran.li/Documents/GitHub/redis/src/crc16.c -o CMakeFiles/redis-cli.dir/src/crc16.c.s
+
+CMakeFiles/redis-cli.dir/src/dict.c.o: CMakeFiles/redis-cli.dir/flags.make
+CMakeFiles/redis-cli.dir/src/dict.c.o: ../src/dict.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/redis-cli.dir/src/dict.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/dict.c.o   -c /Users/haoran.li/Documents/GitHub/redis/src/dict.c
+
+CMakeFiles/redis-cli.dir/src/dict.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/dict.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/haoran.li/Documents/GitHub/redis/src/dict.c > CMakeFiles/redis-cli.dir/src/dict.c.i
+
+CMakeFiles/redis-cli.dir/src/dict.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/dict.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/haoran.li/Documents/GitHub/redis/src/dict.c -o CMakeFiles/redis-cli.dir/src/dict.c.s
+
+CMakeFiles/redis-cli.dir/src/siphash.c.o: CMakeFiles/redis-cli.dir/flags.make
+CMakeFiles/redis-cli.dir/src/siphash.c.o: ../src/siphash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/redis-cli.dir/src/siphash.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-cli.dir/src/siphash.c.o   -c /Users/haoran.li/Documents/GitHub/redis/src/siphash.c
+
+CMakeFiles/redis-cli.dir/src/siphash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-cli.dir/src/siphash.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/haoran.li/Documents/GitHub/redis/src/siphash.c > CMakeFiles/redis-cli.dir/src/siphash.c.i
+
+CMakeFiles/redis-cli.dir/src/siphash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-cli.dir/src/siphash.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/haoran.li/Documents/GitHub/redis/src/siphash.c -o CMakeFiles/redis-cli.dir/src/siphash.c.s
+
 # Object files for target redis-cli
 redis__cli_OBJECTS = \
 "CMakeFiles/redis-cli.dir/src/anet.c.o" \
@@ -190,28 +229,34 @@ redis__cli_OBJECTS = \
 "CMakeFiles/redis-cli.dir/src/zmalloc.c.o" \
 "CMakeFiles/redis-cli.dir/src/release.c.o" \
 "CMakeFiles/redis-cli.dir/src/ae.c.o" \
-"CMakeFiles/redis-cli.dir/src/crc64.c.o"
+"CMakeFiles/redis-cli.dir/src/crc64.c.o" \
+"CMakeFiles/redis-cli.dir/src/crc16.c.o" \
+"CMakeFiles/redis-cli.dir/src/dict.c.o" \
+"CMakeFiles/redis-cli.dir/src/siphash.c.o"
 
 # External object files for target redis-cli
 redis__cli_EXTERNAL_OBJECTS =
 
-redis-cli: CMakeFiles/redis-cli.dir/src/anet.c.o
-redis-cli: CMakeFiles/redis-cli.dir/src/sds.c.o
-redis-cli: CMakeFiles/redis-cli.dir/src/adlist.c.o
-redis-cli: CMakeFiles/redis-cli.dir/src/redis-cli.c.o
-redis-cli: CMakeFiles/redis-cli.dir/src/zmalloc.c.o
-redis-cli: CMakeFiles/redis-cli.dir/src/release.c.o
-redis-cli: CMakeFiles/redis-cli.dir/src/ae.c.o
-redis-cli: CMakeFiles/redis-cli.dir/src/crc64.c.o
-redis-cli: CMakeFiles/redis-cli.dir/build.make
-redis-cli: deps/linenoise/liblinenoise.a
-redis-cli: deps/hiredis/libhiredis.1.0.0.dylib
-redis-cli: CMakeFiles/redis-cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable redis-cli"
+src/redis-cli: CMakeFiles/redis-cli.dir/src/anet.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/sds.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/adlist.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/redis-cli.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/zmalloc.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/release.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/ae.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/crc64.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/crc16.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/dict.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/src/siphash.c.o
+src/redis-cli: CMakeFiles/redis-cli.dir/build.make
+src/redis-cli: deps/linenoise/liblinenoise.a
+src/redis-cli: deps/hiredis/libhiredis.1.0.0.dylib
+src/redis-cli: CMakeFiles/redis-cli.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable src/redis-cli"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/redis-cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/redis-cli.dir/build: redis-cli
+CMakeFiles/redis-cli.dir/build: src/redis-cli
 
 .PHONY : CMakeFiles/redis-cli.dir/build
 

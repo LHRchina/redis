@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/haoran.li/Documents/GitHub/redis/src/ae_kqueue.c
-sys/types.h
--
-sys/event.h
--
-sys/time.h
--
-
 /Users/haoran.li/Documents/GitHub/redis/src/crc64.h
 stdint.h
 -

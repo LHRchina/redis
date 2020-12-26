@@ -79,8 +79,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/redis-server.dir/src/ziplist.c.o"
   "CMakeFiles/redis-server.dir/src/zipmap.c.o"
   "CMakeFiles/redis-server.dir/src/zmalloc.c.o"
-  "redis-server"
-  "redis-server.pdb"
+  "src/redis-server"
+  "src/redis-server.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

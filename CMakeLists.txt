@@ -1,11 +1,12 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(redis VERSION 6.0)
-if (NOT CMAKE_BUILD_TYPE)
-    message(STATUS "No build type defined; defaulting to 'Debug'")
-    set(CMAKE_BUILD_TYPE "Debug" CACHE STRING
-            "The type of build. Possible values are: Debug, Release,
+#if (NOT CMAKE_BUILD_TYPE)
+message(STATUS "No build type defined; defaulting to 'Debug'")
+set(CMAKE_BUILD_TYPE "Debug" CACHE STRING
+        "The type of build. Possible values are: Debug, Release,
 RelWithDebInfo and MinSizeRel.")
-endif()
+#endif()
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -c")
 message(STATUS "Host is: ${CMAKE_HOST_SYSTEM}. Build target is:
 ${CMAKE_SYSTEM}")
 get_filename_component(REDIS_ROOT "${CMAKE_CURRENT_SOURCE_DIR}" ABSOLUTE)
@@ -13,10 +14,10 @@ message(STATUS "Project root directory is: ${REDIS_ROOT}")
 # Just for debugging when handling a new platform.
 if (false)
     message("C++ compiler supports these language features:")
-    foreach(i ${CMAKE_CXX_COMPILE_FEATURES})
+    foreach (i ${CMAKE_CXX_COMPILE_FEATURES})
         message(" ${i}")
-    endforeach()
-endif()
+    endforeach ()
+endif ()
 message(STATUS "Generating release.h...")
 execute_process(
         COMMAND sh -c ./mkreleasehdr.sh
@@ -112,12 +113,22 @@ set(SRC_SERVER_TMP
         )
 set(SRC_SERVER src/server.c ${SRC_SERVER_TMP})
 set(SRC_CLI
-        src/anet.c src/sds.c src/adlist.c src/redis-cli.c src/zmalloc.c
-        src/release.c src/anet.c src/ae.c src/crc64.c
+        src/anet.c
+        src/sds.c
+        src/adlist.c
+        src/redis-cli.c
+        src/zmalloc.c
+        src/release.c
+        src/ae.c
+        src/crc64.c
+        src/crc16.c
+        src/dict.c
+        src/siphash.c
         )
 if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
     # better not to work with jemalloc
 endif()
+set(EXECUTABLE_OUTPUT_PATH src)
 add_executable(redis-server ${SRC_SERVER})
 add_executable(redis-cli ${SRC_CLI})
 set_property(TARGET redis-server PROPERTY C_STANDARD 99)

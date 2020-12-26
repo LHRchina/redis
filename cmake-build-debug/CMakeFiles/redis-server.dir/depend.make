@@ -52,7 +52,11 @@ CMakeFiles/redis-server.dir/src/ae.c.o: ../src/fmacros.h
 CMakeFiles/redis-server.dir/src/ae.c.o: ../src/monotonic.h
 CMakeFiles/redis-server.dir/src/ae.c.o: ../src/zmalloc.h
 
+CMakeFiles/redis-server.dir/src/ae_kqueue.c.o: ../src/ae.h
 CMakeFiles/redis-server.dir/src/ae_kqueue.c.o: ../src/ae_kqueue.c
+CMakeFiles/redis-server.dir/src/ae_kqueue.c.o: ../src/fmacros.h
+CMakeFiles/redis-server.dir/src/ae_kqueue.c.o: ../src/monotonic.h
+CMakeFiles/redis-server.dir/src/ae_kqueue.c.o: ../src/zmalloc.h
 
 CMakeFiles/redis-server.dir/src/anet.c.o: ../src/anet.c
 CMakeFiles/redis-server.dir/src/anet.c.o: ../src/anet.h

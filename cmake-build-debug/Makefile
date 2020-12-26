@@ -673,6 +673,7 @@ src/crc16.o: src/crc16.c.o
 # target to build an object file
 src/crc16.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/crc16.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/crc16.c.o
 .PHONY : src/crc16.c.o
 
 src/crc16.i: src/crc16.c.i
@@ -682,6 +683,7 @@ src/crc16.i: src/crc16.c.i
 # target to preprocess a source file
 src/crc16.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/crc16.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/crc16.c.i
 .PHONY : src/crc16.c.i
 
 src/crc16.s: src/crc16.c.s
@@ -691,6 +693,7 @@ src/crc16.s: src/crc16.c.s
 # target to generate assembly for a file
 src/crc16.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/crc16.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/crc16.c.s
 .PHONY : src/crc16.c.s
 
 src/crc64.o: src/crc64.c.o
@@ -838,6 +841,7 @@ src/dict.o: src/dict.c.o
 # target to build an object file
 src/dict.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/dict.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/dict.c.o
 .PHONY : src/dict.c.o
 
 src/dict.i: src/dict.c.i
@@ -847,6 +851,7 @@ src/dict.i: src/dict.c.i
 # target to preprocess a source file
 src/dict.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/dict.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/dict.c.i
 .PHONY : src/dict.c.i
 
 src/dict.s: src/dict.c.s
@@ -856,6 +861,7 @@ src/dict.s: src/dict.c.s
 # target to generate assembly for a file
 src/dict.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/dict.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/dict.c.s
 .PHONY : src/dict.c.s
 
 src/endianconv.o: src/endianconv.c.o
@@ -2032,6 +2038,7 @@ src/siphash.o: src/siphash.c.o
 # target to build an object file
 src/siphash.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/siphash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/siphash.c.o
 .PHONY : src/siphash.c.o
 
 src/siphash.i: src/siphash.c.i
@@ -2041,6 +2048,7 @@ src/siphash.i: src/siphash.c.i
 # target to preprocess a source file
 src/siphash.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/siphash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/siphash.c.i
 .PHONY : src/siphash.c.i
 
 src/siphash.s: src/siphash.c.s
@@ -2050,6 +2058,7 @@ src/siphash.s: src/siphash.c.s
 # target to generate assembly for a file
 src/siphash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/siphash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/siphash.c.s
 .PHONY : src/siphash.c.s
 
 src/slowlog.o: src/slowlog.c.o

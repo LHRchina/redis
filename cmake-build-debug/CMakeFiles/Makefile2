@@ -207,12 +207,12 @@ CMakeFiles/redis-server.dir/all: deps/linenoise/CMakeFiles/linenoise.dir/all
 CMakeFiles/redis-server.dir/all: deps/lua/CMakeFiles/lua.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target redis-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target redis-server"
 .PHONY : CMakeFiles/redis-server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/redis-server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 87
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/redis-server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/redis-server.dir/rule
@@ -235,12 +235,12 @@ CMakeFiles/redis-cli.dir/all: deps/hiredis/CMakeFiles/hiredis.dir/all
 CMakeFiles/redis-cli.dir/all: deps/linenoise/CMakeFiles/linenoise.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=39,40,41,42,43,44 "Built target redis-cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=38,39,40,41,42,43,44,45 "Built target redis-cli"
 .PHONY : CMakeFiles/redis-cli.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/redis-cli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/redis-cli.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/redis-cli.dir/rule
@@ -262,12 +262,12 @@ CMakeFiles/redis-cli.dir/clean:
 deps/hiredis/CMakeFiles/hiredis-test.dir/all: deps/hiredis/CMakeFiles/hiredis.dir/all
 	$(MAKE) $(MAKESILENT) -f deps/hiredis/CMakeFiles/hiredis-test.dir/build.make deps/hiredis/CMakeFiles/hiredis-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps/hiredis/CMakeFiles/hiredis-test.dir/build.make deps/hiredis/CMakeFiles/hiredis-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=11 "Built target hiredis-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target hiredis-test"
 .PHONY : deps/hiredis/CMakeFiles/hiredis-test.dir/all
 
 # Build rule for subdir invocation for target.
 deps/hiredis/CMakeFiles/hiredis-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/hiredis/CMakeFiles/hiredis-test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 0
 .PHONY : deps/hiredis/CMakeFiles/hiredis-test.dir/rule
@@ -289,7 +289,7 @@ deps/hiredis/CMakeFiles/hiredis-test.dir/clean:
 deps/hiredis/CMakeFiles/hiredis.dir/all:
 	$(MAKE) $(MAKESILENT) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps/hiredis/CMakeFiles/hiredis.dir/build.make deps/hiredis/CMakeFiles/hiredis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8,9,10 "Built target hiredis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7,8,9 "Built target hiredis"
 .PHONY : deps/hiredis/CMakeFiles/hiredis.dir/all
 
 # Build rule for subdir invocation for target.
@@ -343,12 +343,12 @@ deps/linenoise/CMakeFiles/linenoise.dir/clean:
 deps/lua/CMakeFiles/lua.dir/all:
 	$(MAKE) $(MAKESILENT) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/depend
 	$(MAKE) $(MAKESILENT) -f deps/lua/CMakeFiles/lua.dir/build.make deps/lua/CMakeFiles/lua.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target lua"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target lua"
 .PHONY : deps/lua/CMakeFiles/lua.dir/all
 
 # Build rule for subdir invocation for target.
 deps/lua/CMakeFiles/lua.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/lua/CMakeFiles/lua.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 0
 .PHONY : deps/lua/CMakeFiles/lua.dir/rule
@@ -451,12 +451,12 @@ src/modules/CMakeFiles/hellotype.dir/clean:
 src/modules/CMakeFiles/helloworld.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target helloworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles --progress-num=3 "Built target helloworld"
 .PHONY : src/modules/CMakeFiles/helloworld.dir/all
 
 # Build rule for subdir invocation for target.
 src/modules/CMakeFiles/helloworld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/helloworld.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug/CMakeFiles 0
 .PHONY : src/modules/CMakeFiles/helloworld.dir/rule
