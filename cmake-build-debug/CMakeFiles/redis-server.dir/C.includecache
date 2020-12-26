@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/haoran.li/Documents/GitHub/redis/src/ae_kqueue.c
+sys/types.h
+-
+sys/event.h
+-
+sys/time.h
+-
+
+/Users/haoran.li/Documents/GitHub/redis/src/crc64.h
+stdint.h
+-
+
+/Users/haoran.li/Documents/GitHub/redis/src/release.c
+string.h
+-
+stdio.h
+-
+release.h
+/Users/haoran.li/Documents/GitHub/redis/src/release.h
+version.h
+/Users/haoran.li/Documents/GitHub/redis/src/version.h
+crc64.h
+/Users/haoran.li/Documents/GitHub/redis/src/crc64.h
+
+/Users/haoran.li/Documents/GitHub/redis/src/release.h
+
+/Users/haoran.li/Documents/GitHub/redis/src/version.h
+

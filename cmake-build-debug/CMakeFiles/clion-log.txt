@@ -1,0 +1,10 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/haoran.li/Documents/GitHub/redis
+-- Host is: Darwin-19.6.0. Build target is:
+Darwin-19.6.0
+-- Project root directory is: /Users/haoran.li/Documents/GitHub/redis
+-- Generating release.h...
+#define REDIS_GIT_SHA1 "f44186e5"
+Detected version: 1.0.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/haoran.li/Documents/GitHub/redis/cmake-build-debug
