@@ -1,10 +1,14 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(redis VERSION 6.0)
+#set(CMAKE_INSTALL_PREFIX "${CMAKE_BINARY_DIR}/")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../src)
+message(CMAKE_RUNTIME_OUTPUT_DIRECTORY is:${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
 #if (NOT CMAKE_BUILD_TYPE)
 message(STATUS "No build type defined; defaulting to 'Debug'")
 set(CMAKE_BUILD_TYPE "Debug" CACHE STRING
         "The type of build. Possible values are: Debug, Release,
 RelWithDebInfo and MinSizeRel.")
+
 #endif()
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -c")
 message(STATUS "Host is: ${CMAKE_HOST_SYSTEM}. Build target is:
@@ -161,3 +165,6 @@ target_link_libraries(redis-cli
         PRIVATE hiredis
         )
 link_directories(deps/hiredis/ deps/linenoise/ diredeps/lua/src)
+install(TARGETS redis-server
+        RUNTIME DESTINATION bin
+)
